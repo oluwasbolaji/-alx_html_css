@@ -42,3 +42,56 @@ aside {
     padding: 10px;
 }
 
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Article styling */
+article {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Aside styling */
+aside {
+    background-color: #fff5e6;
+    border: 1px solid #f0c080;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Optional: style links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
