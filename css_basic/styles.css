@@ -1,0 +1,97 @@
+body {
+    display: flex;         /* Makes body a flex container */
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh;          /* Full height of the viewport */
+    margin: 0;              /* Remove default margin */
+}
+
+main {
+    display: flex;  /* Makes main a flex container */
+    flex-direction: row;  /* Place children horizontally */
+    flex: auto;     /* Automatic width and height */
+    gap: 10px;      /* Optional: space between article and aside */
+}
+
+article {
+    flex: 2;         /* 2 parts of available space */
+    overflow-y: auto; /* Allows vertical scrolling if content overflows */
+}
+
+aside {
+    flex: 1;         /* 1 part of available space */
+    overflow-y: auto; /* Allows vertical scrolling if content overflows */
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+article {
+    background-color: #e6f7ff;
+    padding: 10px;
+}
+
+aside {
+    background-color: #fff0f0;
+    padding: 10px;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Article styling */
+article {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Aside styling */
+aside {
+    background-color: #fff5e6;
+    border: 1px solid #f0c080;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Optional: style links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
